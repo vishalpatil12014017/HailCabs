@@ -1,9 +1,9 @@
 const options = {
 	DB: {
-		HOST: "sql.freedb.tech",
-		USER: "freedb_vishal",
-		PASSWORD: "wZz$96f9pcU#H%C",
-		DB: "freedb_Projects",
+		HOST: "xxxxx",
+		USER: "xxxxx",
+		PASSWORD: "xxxxx",
+		DB: "xxxxx",
 		dialect: "mysql",
 		pool: {
 		  max: 5,
