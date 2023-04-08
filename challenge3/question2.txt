@@ -1,0 +1,17 @@
+To make the query run faster, 
+we can create indexes on the columns that are we are using frequently on below
+WHERE, JOIN, and ORDER BY clauses.
+
+==>columns to index:
+
+1.  users.id: 
+The id column is used to join the users table with other tables, so indexing would increase speed up the joins.
+
+2.  cabs.userId: 
+The userId column is used to join the cabs table with the users table, so indexing would increase speed up the joins.
+
+3.  trips.cabId: 
+The cabId column is used to join the trips table with the cabs table, so indexing would increase speed up the joins.
+
+3.  trips.driverId: 
+The driverId column is used to join the trips table with the driver table, so indexing would increase speed up the joins.
