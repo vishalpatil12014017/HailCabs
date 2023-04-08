@@ -1,9 +1,9 @@
 const options = {
 	DB: {
-		HOST: "xxxxx",
-		USER: "xxxxx",
-		PASSWORD: "xxxxx",
-		DB: "xxxxx",
+		HOST: "localhost",
+		USER: "root",
+		PASSWORD: "Vish@l1718",
+		DB: "testDb",
 		dialect: "mysql",
 		pool: {
 		  max: 5,
